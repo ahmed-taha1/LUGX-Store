@@ -195,6 +195,8 @@ body{
 }
 
 
+/*********************** top categories section *********************/
+
 .top-categories-section{
     padding: 150px 250px 40px 250px;
     text-align: center;
@@ -220,4 +222,17 @@ body{
 
 .top-categories-section-card p{
     margin: 0px 0px 10px 0px;
+}
+
+
+/*********************** footer *********************/
+
+.footer{
+    margin-top: 200px;
+    background-color: #2177fd;
+    height: 100px;
+    text-align: center;
+    border-radius: 100px 100px 0px 0px;
+    padding-top: 80px;
+    color: white;
 }
