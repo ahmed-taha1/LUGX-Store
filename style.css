@@ -6,6 +6,7 @@ body{
 }
 
 .btn:hover{
+    transition: .5s;
     cursor: pointer;
     background-color: #9e4147;
 }
@@ -70,6 +71,7 @@ body{
 
 .header-links a:hover{
     background-color: #2386fe;
+    transition: .5s;
 }
 
 .landing-page{
@@ -88,6 +90,8 @@ body{
     height: 52px;
     width: 360px;
     padding: 0px 10px;
+    font-weight: 700px;
+    font-size: 20px;
 }
 
 .landing-page button{
@@ -214,6 +218,11 @@ body{
     height: 100px;
     padding-top: 8px;
     border-radius: 15px;
+}
+
+.top-categories-section-card:hover{
+    transform: scale(1.1);
+    transition: .4s;
 }
 
 .top-categories-section-card img{
