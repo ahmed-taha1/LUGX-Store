@@ -193,3 +193,31 @@ body{
     font-size: 18px;
     font-weight: 700px;
 }
+
+
+.top-categories-section{
+    padding: 150px 250px 40px 250px;
+    text-align: center;
+}
+
+.top-categories-section-cards{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-categories-section-card{
+    background-color: #2177fd;
+    width: fit-content;
+    height: 100px;
+    padding-top: 8px;
+    border-radius: 15px;
+}
+
+.top-categories-section-card img{
+    border-radius: 15px;
+}
+
+.top-categories-section-card p{
+    margin: 0px 0px 10px 0px;
+}
